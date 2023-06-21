@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["error"],"struct":["FittedLogisticRegression","MultiFittedLogisticRegression"],"type":["LogisticRegression","MultiLogisticRegression","ValidLogisticRegression","ValidMultiLogisticRegression"]};
