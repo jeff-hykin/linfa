@@ -2,6 +2,9 @@
 title = "Support Vector Machines"
 +++
 ```rust
+// use linfa_svm::Svm;
+// use linfa::prelude::*;
+
 // everything above 6.5 is considered a good wine
 let (train, valid) = linfa_datasets::winequality()
     .map_targets(|x| *x > 6)
