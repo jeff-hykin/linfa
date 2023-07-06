@@ -2,6 +2,9 @@
 title = "Linear Decision Trees"
 +++
 ```rust
+// use linfa_trees::{DecisionTree, SplitQuality};
+// use linfa::prelude::*;
+
 let (train, valid) = linfa_datasets::iris()
     .split_with_ratio(0.8);
 
